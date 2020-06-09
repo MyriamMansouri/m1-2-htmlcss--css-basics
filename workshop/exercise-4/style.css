@@ -1,5 +1,13 @@
+h1,
+p,
+h2,
+div {
+  margin: 0;
+}
+
 .centered {
   text-align: center;
+  background: grey;
 }
 
 #title {
@@ -23,9 +31,3 @@ li {
   font-family: monospace;
 }
 
-h1,
-p,
-h2 {
-  background: grey;
-  margin: 0;
-}
