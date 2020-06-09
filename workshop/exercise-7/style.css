@@ -17,3 +17,47 @@ li {
 }
 
 /* ADD CSS BELOW */
+body {
+  margin: 10px 30px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bangers', cursive;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding : 20px 0;
+}
+
+h3 {
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0 -5px;
+}
+
+.col {
+  padding:20px;
+  background-color: gainsboro;
+  border: gray 1px dashed ;
+  margin: 5px 5px;
+}
+
+.image {
+  height: 150px;
+  border-radius:3px;
+  margin: 0 5px;
+}
